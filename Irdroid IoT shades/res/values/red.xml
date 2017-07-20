@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="MyRedTheme" parent="android:Theme.Light">
+    <item name="android:textAppearance">@style/MyRedTextAppearance</item>
+  </style>
+  <style name="MyRedTextAppearance" parent="@android:style/TextAppearance">
+    <item name="android:textColor">#5a8e21</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+</resources>

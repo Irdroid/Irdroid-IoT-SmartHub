@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+    <item android:id="@+id/menu_settings"
+       
+          android:title="@string/editable"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+        </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/selecta"
+       	
+              android:title="@string/channel1" />
+        <item android:id="@+id/selectb"
+              android:title="@string/channel2" />
+        <item android:id="@+id/selectc"
+              android:title="@string/channel3" />
+        <item android:id="@+id/selectd"
+              android:title="@string/channel4" />
+        <item android:id="@+id/selecte"
+              android:title="@string/channel5" />
+        <item android:id="@+id/selectf"
+              android:title="@string/channel6" />
+        <item android:id="@+id/selectg"
+              android:title="@string/channel7" />
+        <item android:id="@+id/selecth"
+              android:title="@string/channel8" />
+        <item android:id="@+id/selecti"
+              android:title="@string/channel9" />
+        <item android:id="@+id/selectj"
+              android:title="@string/channel10" />
+              
+        
+       
+    </group>
+    
+</menu>

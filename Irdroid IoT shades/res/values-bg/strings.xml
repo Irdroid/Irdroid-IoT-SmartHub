@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+  
+    <string name="app_name">Arexim Garden</string>
+        <string name="connect_message">Свързвам се. Моля, изчакайте.</string>
+          <string name="connected_to">Свързан с</string>
+     <string name="menu_settings">Настройка</string>
+     <string name="channel1">Канал 1</string> 
+       <string name="channel2">Канал 2</string> 
+         <string name="channel3">Канал 3</string> 
+         
+         <string name="channel4">Канал 4</string> 
+       <string name="channel5">Канал 5</string> 
+         <string name="channel6">Канал 6</string> 
+            <string name="channel7">Канал 7</string> 
+       <string name="channel8">Канал 8</string> 
+         <string name="channel9">Канал 9</string> 
+            <string name="channel10">Канал 10</string> 
+      <string name="prog_mode_label">Режим програмиране!</string>
+           <string name="prog_mode_message">С натискане на бутона OK щорите ще преминат в режим програмиране. Желаете ли да продължите?</string>
+         
+</resources>
