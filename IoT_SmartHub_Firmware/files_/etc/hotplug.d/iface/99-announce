@@ -1,0 +1,8 @@
+#!/bin/sh
+
+[ "$ACTION" = ifup ] && {
+
+/etc/init.d/announce stop
+/etc/init.d/announce start
+
+}

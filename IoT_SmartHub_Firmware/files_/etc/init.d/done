@@ -1,0 +1,42 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=95
+boot() {
+	[ -d /tmp/root ] && mount_root done
+
+	# process user commands
+	[ -f /etc/rc.local ] && {
+		sh /etc/rc.local
+	}
+
+	# set leds to normal state
+	. /etc/diag.sh
+	set_state done
+	mtd unlock rootfs_data
+#	nice -n -10 /bin/serwebproxy &
+	mkdir /tmp/prx800
+	tar xzf /etc/prx800.tar.gz -C /tmp/prx800
+	ln -s /tmp/prx800/* /www
+
+
+#	echo 1 > /sys/class/gpio/export
+#	echo 2 > /sys/class/gpio/export
+	echo 9 > /sys/class/gpio/export
+#	echo "out" > /sys/class/gpio/gpio1/direction
+#	echo "out" > /sys/class/gpio/gpio2/direction
+#	echo 0 > /sys/class/gpio/gpio1/value
+#	echo 1 > /sys/class/gpio/gpio2/value
+        mkdir /var/run/lirc
+        /usr/sbin/lircd -a  --listen=8765
+        /usr/sbin/irexec -d
+	/bin/send1 1 4 0 260 9 15
+
+
+        sleep 20
+        # echo 0 > /sys/class/gpio/export
+        source /etc/systemid.conf
+	/usr/bin/mDNSResponder -b -f /etc/mDNSResponder.conf
+        /bin/mqtt_subscribe.lua -i local_$systemid -t $systemid@/# > /dev/null &
+
+}

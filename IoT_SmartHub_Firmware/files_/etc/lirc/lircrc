@@ -1,0 +1,194 @@
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_UP
+ config = up.sh 
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_DOWN
+ config = down.sh 
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_STOP
+ config = stop.sh 
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_PROG
+ config = program.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = SLIDE_UP
+ config = slide_up.sh 
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = SLIDE_DOWN
+ config = slide_down.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_UP4
+ config = blinds_up4.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_DOWN4
+ config = blinds_down4.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH1
+ config = set_chan1.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH2
+ config = set_chan2.sh
+end
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH3
+ config = set_chan3.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH4
+ config = set_chan4.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH5
+ config = set_chan5.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH6
+ config = set_chan6.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH7
+ config = set_chan7.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH8
+ config = set_chan8.sh
+end
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH9
+ config = set_chan9.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH10
+ config = set_chan10.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH11
+ config = set_chan11.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH12
+ config = set_chan12.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH13
+ config = set_chan13.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH14
+ config = set_chan14.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH15
+ config = set_chan15.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH16
+ config = set_chan16.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH17
+ config = set_chan17.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH18
+ config = set_chan18.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH19
+ config = set_chan19.sh
+end
+
+begin
+ prog = irexec
+ remote = Irdroid_IoT_Blinds
+ button = BLINDS_CH20
+ config = set_chan20.sh
+end
+
