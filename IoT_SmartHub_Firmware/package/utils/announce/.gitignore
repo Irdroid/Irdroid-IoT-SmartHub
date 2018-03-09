@@ -1,0 +1,5 @@
+
+.DS_Store
+
+destination_directory/IPKG*
+._*

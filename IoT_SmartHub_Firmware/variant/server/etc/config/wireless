@@ -1,0 +1,18 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option hwmode '11bgn'
+	option path '10180000.wmac'
+	option htmode 'HT20'
+	option txpower '20'
+	option country '00'
+	option channel '1'
+
+config wifi-iface
+	option ssid 'PRX800'
+	option encryption 'psk2'
+	option device 'radio0'
+	option mode 'ap'
+	option key 'iosysdemo'
+	option network 'wifi'
+
