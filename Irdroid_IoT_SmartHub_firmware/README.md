@@ -9,4 +9,9 @@ IoT Smart Hub is a open source software and open hardware Internet of Things Wir
 * [Demo App for controlling Blinds/Shades](https://github.com/Irdroid/Irdroid-IoT-SmartHub/tree/master/Irdroid%20IoT%20shades) - Arexim Remote
 
 
+## Demo Apps in Google play
+
+* [Irdroid Iot SmartHub Irdroid Cloud App](https://play.google.com/store/apps/details?id=com.microcontrollerbg.irdroid.cloud)
+* [Demo App for controlling Blinds/Shades](https://play.google.com/store/apps/details?id=com.microcontrollerbg.Irdroid_IoT.shades)
+
 
