@@ -1,7 +1,0 @@
-config 'proxy'
-        option 'tcpport' '8000'
-        option 'state' 'raw'
-        option 'timeout' '30'
-        option 'device' '/dev/ttyUSB0'
-        option 'options' '115200 1STOPBIT 8DATABITS'
-

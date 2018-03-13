@@ -1,6 +1,0 @@
-#!/bin/sh
-if [ "$ACTION" == "add" ]; then  
-/bin/prx800_update.sh &
-fi 
-
-
